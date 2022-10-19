@@ -10,7 +10,7 @@ config_version=4
 
 [application]
 
-config/name="Menu base"
+config/name="Basic menu"
 run/main_scene="res://scenes/Menu.tscn"
 config/icon="res://icon.png"
 
