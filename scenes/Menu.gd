@@ -15,7 +15,7 @@ func _ready():
 	BtnPlay.grab_focus()
 
 func _input(event):
-	if event.is_action_pressed("ui_cancel"):
+	if event.is_action_pressed("ui_cancel") and not visible:
 		show_menu()
 
 
